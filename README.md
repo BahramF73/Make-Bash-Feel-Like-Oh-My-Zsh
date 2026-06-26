@@ -1,1 +1,1 @@
-# Make-Bash-Feel-Like-Oh-My-Zsh
+# Make Bash Feel Like Oh My Zsh
