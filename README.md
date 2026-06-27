@@ -17,6 +17,7 @@ curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/0xProt
 unzip 0xProto.zip -d 0xProto
 mkdir -p "$HOME/.local/share/fonts" && cp 0xProto/*.ttf "$HOME/.local/share/fonts/" && fc-cache -fv && rm -rf 0xProto 0xProto.zip
 ```
+or install [Get Nerd Fonts(getnf)](https://github.com/getnf/getnf) 
 ## Install [ble.sh](https://github.com/akinomyoga/ble.sh)
 ### 1. Install ble.sh:
 ```sh
