@@ -11,7 +11,7 @@ echo 'eval "$(starship init bash)"' >> ~/.bashrc
 # echo 'eval "$(starship init bash)"' | sudo tee -a /root/.bashrc
 ```
 ### 3. Install [Nerd Font](https://www.nerdfonts.com/):  
-for example run this to install [0xProto Font](https://github.com/0xType/0xProto):
+for example run this to install [0xProto Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/0xProto):
 ```sh
 curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/0xProto.zip
 unzip 0xProto.zip -d 0xProto
