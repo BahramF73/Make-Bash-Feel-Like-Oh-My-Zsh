@@ -15,7 +15,7 @@ for example run this to install [0xProto Font](https://github.com/ryanoasis/nerd
 ```sh
 curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/0xProto.zip
 unzip 0xProto.zip -d 0xProto
-mkdir -p "$HOME/.local/share/fonts" && cp 0xProto/*.ttf "$HOME/.local/share/fonts/" && fc-cache -fv && rm -rf 0xProto 0xProto.zip
+mkdir -p "$HOME/.local/share/fonts" && cp -r 0xProto "$HOME/.local/share/fonts/" && fc-cache -fv && rm -rf 0xProto 0xProto.zip
 ```
 or install [Get Nerd Fonts(getnf)](https://github.com/getnf/getnf) 
 ## Install [ble.sh](https://github.com/akinomyoga/ble.sh)
